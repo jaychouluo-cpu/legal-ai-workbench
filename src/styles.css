@@ -1,0 +1,44 @@
+/* ===== 全局基础样式 ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --ink: #16223a;
+  --brand: #1d4ed8;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #eef1f5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 字体优雅降级：原型使用 Noto Serif SC / IBM Plex Mono，
+   内网离线环境无外网字体时自动回退到系统衬线 / 等宽字体。 */
+@font-face { font-family: 'Noto Serif SC'; src: local('Songti SC'), local('SimSun'), local('serif'); }
+
+button { font-family: inherit; }
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 9px; height: 9px; }
+::-webkit-scrollbar-thumb { background: #c8d1de; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #aab6c8; }
+::-webkit-scrollbar-track { background: transparent; }
+
+/* ===== 交互态（对应原型的 style-hover / style-focus）===== */
+.module-card { transition: all .15s; }
+.module-card:hover { border-color: #1d4ed8 !important; box-shadow: 0 6px 18px rgba(20,34,58,0.08); }
+
+.result-card { transition: border-color .15s; }
+.result-card:hover { border-color: #1d4ed8 !important; }
+
+.field-input:focus { border-color: #1d4ed8 !important; }
+
+textarea { font-family: inherit; }

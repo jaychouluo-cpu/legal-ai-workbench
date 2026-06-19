@@ -1,0 +1,21 @@
+{
+  "name": "legal-ai-workbench",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "企业法务 AI 工作台 — 基于 awesome-legal-ai-zh 整合方案的法务 AI 工具箱前端交付版",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}
