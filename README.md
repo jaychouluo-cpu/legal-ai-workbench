@@ -1,7 +1,12 @@
 # 法务智库 · 企业法务 AI 工作台
 
+[![Build & Deploy](https://github.com/jaychouluo-cpu/legal-ai-workbench/actions/workflows/build.yml/badge.svg)](https://github.com/jaychouluo-cpu/legal-ai-workbench/actions/workflows/build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
 > 交付版本 v1.0 —— 由《企事业单位法律 AI 工具箱整合方案》（研究对象 awesome-legal-ai-zh）
 > 与《企业法务 AI 工作台 · 设计原型》共同落地的前端工程。
+
+🌐 在线体验（GitHub Pages 自动部署）：https://jaychouluo-cpu.github.io/legal-ai-workbench/
 
 一套面向 **企业法务 / 合规、政府事业单位法制、国企综合法务** 三类岗位的法务 AI 工作台前端。
 以「一壳多挂」为形态，把整合方案中的 **底座 → 检索 → 业务能力 → 交付协同** 四层能力，

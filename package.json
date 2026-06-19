@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "企业法务 AI 工作台 — 基于 awesome-legal-ai-zh 整合方案的法务 AI 工具箱前端交付版",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
